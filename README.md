@@ -1,4 +1,4 @@
-# Teste
+# Teste Tezus
 Primeiro Teste
 
 <h3>Introdução</h3>
@@ -8,7 +8,7 @@ Primeiro Teste
 <p> - A página deve ser construida seguindo fielmente o <a
         hrfe="https://xd.adobe.com/view/f1ad5c55-60cc-4979-5072-66253923c733-879c/screen/0031eacc-05c6-4107-8136-c0b376605d9e/blog">layout</a>
     pré-definido;</p>
-<p> - É Importantíssmo que a pagina seja 100% reposiva;</p>
+<p> - É Importantíssmo que a pagina seja 100% reponsiva;</p>
 <p> - Não mudar a estrutura de pastas;</p>
 <p> - Pedimos que não seja usado nenhum script(.js, .css, .html) de terceiros, com exceção dos listados abaixo:</p>
     <ul>
@@ -17,7 +17,7 @@ Primeiro Teste
     </ul>
 <p> - Se por acaso resolva usar outras bibliotecas(jquery, bootstrap, etc...) descreva neste arquivo o motivo e as dificuldades que levou o uso das mesmas</p>
 <p> - z-index não pode passar de 99</p>
-<p> - De prefrêrencia usar "background-image" ao invés da tag img  (**OPCIONAL**)</p>
+<p> - De prefrêrencia usar "background-image" ao invés da tag "img"  (**OPCIONAL**)</p>
 <p> - A PAGINA NÃO PODE RECARREGAR NENHUMA VEZ DURANTE A NAVEGAÇÃO</p>
 <br>
 <br>
