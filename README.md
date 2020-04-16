@@ -24,9 +24,9 @@ Primeiro Teste
 <h3>Layout</h3>
 
 <p><a target="_blank" href="https://fonts.google.com/specimen/Sarabun?query=Sarabun"><b>Font geral do site</b></a></p>
-<p><a target="_blank" href="https://xd.adobe.com/view/f1ad5c55-60cc-4979-5072-66253923c733-879c/screen/0031eacc-05c6-4107-8136-c0b376605d9e/blog"><b>Desktop</b></a></p>
-<p><a target="_blank" href="https://xd.adobe.com/view/fe79263a-a92c-4134-4b61-abe44586f588-8848/screen/3fa12d19-bf1f-49f9-b0f8-b79787e4f392/blog"><b>Mobile</b></a></p>
-<p><a target="_blank" href="https://xd.adobe.com/view/fe79263a-a92c-4134-4b61-abe44586f588-8848/screen/463c69a1-5e8f-44b0-91d9-03e2c9dc0994/menu-nivel-1"><b>Menu Mobile</b></a></p>
+<p><a target="_blank" href="https://xd.adobe.com/view/f1ad5c55-60cc-4979-5072-66253923c733-879c/screen/e1ca136c-fc80-4378-ac2c-ee43a8477cbe/area-exclusiva-home"><b>Desktop</b></a></p>
+<p><a target="_blank" href="https://xd.adobe.com/view/fe79263a-a92c-4134-4b61-abe44586f588-8848/screen/7bf566e4-ba19-4ebe-a895-70090fc4efc9/area-exclusiva-home/"><b>Mobile</b></a></p>
+<p><a target="_blank" href="https://xd.adobe.com/view/fe79263a-a92c-4134-4b61-abe44586f588-8848/screen/ed32dd85-092d-4c12-aa24-b77b9c00ee13/area-exclusiva-menu/"><b>Menu Mobile</b></a></p>
 
 
 <h3>APÓS CONCLUIR, ATUALIZE O REPOSITÓRIO COM SUAS ALETRAÇÕES</h3>
