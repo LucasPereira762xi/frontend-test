@@ -5,8 +5,7 @@ Primeiro Teste
 <p>Este é um teste básico de desenvolvimento front-end de um blog, neste teste, um blog para uma loja de semi jóias</p>
 <br>
 <p><b>Importante</b></p>
-<p> - A página deve ser construida seguindo fielmente o <a
-        hrfe="https://xd.adobe.com/view/f1ad5c55-60cc-4979-5072-66253923c733-879c/screen/0031eacc-05c6-4107-8136-c0b376605d9e/blog">layout</a>
+<p> - A página deve ser construida seguindo fielmente o <a href="#layout">layout</a>
     pré-definido;</p>
 <p> - É Importantíssmo que a pagina seja 100% reponsiva;</p>
 <p> - Não mudar a estrutura de pastas;</p>
