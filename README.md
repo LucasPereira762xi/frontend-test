@@ -2,7 +2,7 @@
 Primeiro Teste
 
 <h3>Introdução</h3>
-<p>Este é um teste básico de desenvolvimento front-end de um blog, neste teste, uma blog para uma loja de semi jóias</p>
+<p>Este é um teste básico de desenvolvimento front-end de um blog, neste teste, um blog para uma loja de semi jóias</p>
 <br>
 <p><b>Importante</b></p>
 <p> - A página deve ser construida seguindo fielmente o <a
@@ -25,10 +25,10 @@ Primeiro Teste
 <h3>Layout</h3>
 
 <p><a target="_blank" href="https://fonts.google.com/specimen/Sarabun?query=Sarabun"><b>Font geral do site</b></a></p>
-<p><a target="_blank" href="https://xd.adobe.com/view/f1ad5c55-60cc-4979-5072-66253923c733-879c/screen/0031eacc-05c6-4107-8136-c0b376605d9e/blog"><b>Desktop:</b></a></p>
-<p><a target="_blank" href="https://xd.adobe.com/view/fe79263a-a92c-4134-4b61-abe44586f588-8848/screen/3fa12d19-bf1f-49f9-b0f8-b79787e4f392/blog"><b>Mobile:</b></a></p>
-<p><a target="_blank" href="https://xd.adobe.com/view/fe79263a-a92c-4134-4b61-abe44586f588-8848/screen/463c69a1-5e8f-44b0-91d9-03e2c9dc0994/menu-nivel-1"><b>MENU MOBILE</b></a></p>
+<p><a target="_blank" href="https://xd.adobe.com/view/f1ad5c55-60cc-4979-5072-66253923c733-879c/screen/0031eacc-05c6-4107-8136-c0b376605d9e/blog"><b>Desktop</b></a></p>
+<p><a target="_blank" href="https://xd.adobe.com/view/fe79263a-a92c-4134-4b61-abe44586f588-8848/screen/3fa12d19-bf1f-49f9-b0f8-b79787e4f392/blog"><b>Mobile</b></a></p>
+<p><a target="_blank" href="https://xd.adobe.com/view/fe79263a-a92c-4134-4b61-abe44586f588-8848/screen/463c69a1-5e8f-44b0-91d9-03e2c9dc0994/menu-nivel-1"><b>Menu Mobile</b></a></p>
 
 
-<h2>APÓS CONCLUIR, ATUALIZE O REPOSITÓRIO COM SUAS ALETRAÇÕES</h2>
-<h2>Bom Teste</h2>
+<h3>APÓS CONCLUIR, ATUALIZE O REPOSITÓRIO COM SUAS ALETRAÇÕES</h3>
+<h3>Bom Teste</h3>
