@@ -1,0 +1,607 @@
+@font-face {
+    font-family: Sarabun;
+    src: url(../fonts/Sarabun-Bold.ttf);
+   
+}
+@font-face {
+    font-family: Sarabun-Regular;
+    src: url(../fonts/Sarabun-Regular.ttf);   
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.body {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 126px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.scroll {
+    width: 100%;
+    height: 100%;
+}
+.toolbar {
+    width: 100%;
+    height: 56px;
+    background: #FFFFFF;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.bar1, .bar2, .bar3 {
+    width: 23px;
+    height: 2px;
+    background-color: black;
+    margin: 5px;
+    transition: 0.4s ease;
+}
+.mudar .bar1 {
+    transform: rotate(-45deg) translate(-5px, 4px);
+}
+.mudar .bar3 {
+    transform: rotate(45deg) translate(-1px, -0px);
+}
+.mudar .bar2 {
+    display: none;
+}
+.madrejoy-icone-toolbar {
+    display: flex;
+    height: 30px;
+    width: 172px;
+    align-self: center;
+    margin-left: 50%;
+    margin: 0 auto;
+}
+.toolbar_botao_loja {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    background: #F4CBC6;
+    align-self: center;
+    margin-right: 17px;
+}
+.madrejoy_logo_mobile {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+#botao_loja_icone {
+    width: 13px;
+    height: 16px;
+    margin-left: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.header_itens {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+}
+.madrejoy-logo {
+    top: 126px;
+    width: 100%;
+    width: 100%;
+    z-index: 4;
+}
+.botao_loja {
+    display: flex;
+    width: 133px;
+    height: 36px;
+    background: #F4CBC6 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    align-self: flex-start;
+    margin-left: 430px;
+    flex-direction: row;
+    align-content: center;
+}
+.botao_loja_texto {
+    font-family: Sarabun;
+    font-size: 14px;
+    text-align: center;
+    align-self: center;
+    margin-left: 5px;
+}
+.titulo_menu {
+    text-align: left;
+    font-family: Sarabun;
+    font: Bold 14px/24px Sarabun;
+    color: #292F36;
+    padding-right: 80px;
+    opacity: 1;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+ul#menu_servicos {
+	min-width: 696px;
+    list-style: none;
+    align-self: center;
+}
+ul#menu_servicos li {
+	display: inline;
+}
+
+#menu_mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#menu_mobile ul {
+     list-style-type: none;
+}
+.madrejoy-icone-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.madrejoy-icone {
+    display: flex;
+    height: 44px;
+    margin-bottom: 20px;
+    align-self: start;
+}
+.div_header_centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#btn_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icone_botao_loja{
+    align-self: center;
+    margin-left: 20px;
+}
+.div_todo {  
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-self: center;
+}
+.aside {
+    float: left;
+    width: 350px;
+}
+.titulo_categorias {
+    font-family: Sarabun;
+    align-self: flex-start;
+    font-size: 18px;
+    margin-top: 88px;
+}
+.botao_categoria_ativo {
+    background: #64CCC9;
+    border-radius: 18px;
+    height: 36px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-content: flex-start;
+    align-self: center;
+}
+.botao_categoria {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #EBECEC;
+    border-radius: 18px;
+    opacity: 1;
+    margin-left: 10px;
+    height: 36px;
+    margin-top: 10px;
+    max-width: 200px;
+}
+.titulo_categoria_ativo {
+    text-align: left;
+    font-family: Sarabun;
+    font: Bold 14px/24px Sarabun;
+    color: #FFFFFF;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.titulo_categoria {
+    text-align: left;
+    font-family: Sarabun;
+    font: Bold 14px/24px Sarabun;
+    color: #292F36;
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.categorias_grupo 
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 300px;
+    height: 100px;
+    align-items: flex-start;
+    grid: "h h"
+        "a b"
+        "f f";
+    grid-template-columns: stretch normal;     
+}
+.categorias_mobile {
+    display: none;
+}
+.categorias_e_titulo {
+    min-width: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+.maislidas_e_titulo {
+    align-self: center;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.tiutlo_mais_lidas {
+    margin-top: 79px;
+    font-family: Sarabun;
+    align-self: flex-start;
+    font-size: 18px;
+    margin-top: 88px;
+}
+.indicador {
+    letter-spacing: 0px;
+    color: #64CCC9;
+    margin-top: 30px;
+    font-family: Sarabun;
+    font-size: 14px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.texto_mais_lidas {
+    font-family: Sarabun-Regular;
+    font-size: 14px;
+    color: #292F36;
+    width: 250px;
+    flex: 1;
+    margin-top: 30px;
+    margin-left: 16px;
+    align-self: flex-start;
+    line-height: 14px;
+}
+.mais_lidas_item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.grid_posts {
+    display: grid;
+    margin-top: 100px;
+    grid: "h h h"
+    "a b c"
+    "f f f";
+}
+.post_container {
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 30px;
+    max-width: 276px;
+}
+.placeholder {
+    width: 276px;
+    height: 184px;
+}
+.post_titulo {
+    font-family: Sarabun;
+    font-size: 16px;
+    color: #292F36;
+    margin-top: 30px;
+}
+.post_descricao {
+    font-family: Sarabun-Regular;
+    font-size: 14px;
+    color: #767A7F;
+    margin-top: 20px;
+}
+.lear_mais {
+    font-family: Sarabun;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #64CCC9;
+    display: inline-block;
+}
+.ler_mais_icone {
+    width: 6px;
+    height: 10px;
+    margin-top: 2px;
+    margin-left: 5px;
+    display: inline-block;   
+}
+.botao_mais_posts {
+    width: 174px;
+    height: 46px;
+    margin-top: 40px;
+    background: #E2A6A1;
+    border-radius: 23px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+}
+.texto_botao_mais_posts {
+    text-align: center;
+    font-family: Sarabun;
+    font-size: 14px;
+    margin-top: 13px;
+    align-self: center;
+    color: #FFFFFF;
+}
+.footer {
+    width: 100%;
+    height: 190px;
+    background: #EBECEC;
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.div_botao_centro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_itens {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+}
+.madrejoy-symbol {
+    top: 40px;
+    width: 100%;
+    width: 100%;
+}
+.madrejoy-symbol-mobile {
+    margin-top: 30px;
+    height: 60px;
+    width: 60px;
+    margin-left: 50%;
+    margin: auto;
+}
+.titulo_menu_mobile {
+    text-align: center;
+    font-family: Sarabun;
+    font-size: 14px;
+    margin-top: 16px;
+    color: #292F36;
+}
+.titulo_menu_servicos_mobile {
+    text-align: start;
+    font-family: Sarabun;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-top: 32px;
+    color: #292F36;
+}
+.icones_footer_mobile {
+    display: flex;
+    margin-top: 32px;
+    align-self: center;
+    flex-direction: row;
+}
+.footer_mobile {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#menu_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    margin-left: 60px;
+}
+ul#menu_footer_lista {
+	min-width: 696px;
+    list-style: none;
+    align-self: center;
+}
+ul#menu_footer_lista li {
+    display: inline;
+}
+.icones {
+    width: 16px;
+    height: 16px;
+    width: 50%;
+    margin: 0 auto;
+}
+.icones_background {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    border-radius: 50%;
+    margin-left: 16px;
+    align-items: center;
+    flex-direction: row;
+    background: #B8E7E6;
+}
+.footer_copyright {
+    font-family: Sarabun-Regular;
+    font-size: 14px;
+    color: #767A7F;
+    align-self: flex-start;
+}
+.tezus_logo {
+    width: 99px;
+    height: 27px;
+}
+.div_below_itens {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer_itens_below {
+    width: 100%;
+    margin-top: 34px;
+    margin-bottom: 30px;
+}
+.footer_body {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-self: center;
+}
+.body_grid {
+    display: grid;
+    grid: "h h";
+}
+.div_menu_mobile {
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+    .toolbar {
+        display: none;
+    }
+    .footer_mobile {
+        display: none;
+    }
+    .categorias_desk {
+        display: block;
+    }
+    .categorias_mobile {
+        display: none;
+    }
+    .div_menu_mobile {
+        display: none;
+    }
+    .madrejoy_logo_mobile {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .header {
+        display: none;
+      }
+    .grid_posts {
+        display: flex;
+        flex-direction: column;
+    }
+    .madrejoy-logo {
+        display: none;
+    }
+    .post_container {
+        align-self: center;
+    }
+    .madrejoy_logo_mobile {
+        display: block;
+    }
+    .placeholder {
+        width: 300px;
+        height: 200px;
+        margin-right: 16px;
+    }
+    .footer_body {
+        display: none;
+    }
+    .body {
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+    }    
+    .footer {
+        height: 379px;
+    }
+    .footer_copyright {
+        margin-top: 25px;
+        align-self: center;
+    }
+    .tezus_logo {
+        margin-top: 16px;
+        align-self: center;
+    }
+    .post_container {
+        margin-left: auto;
+    }
+    .body_grid {
+        grid: "a"
+        "h";
+        display: flex;
+        flex-direction: column-reverse ;
+    }
+    .aside {
+        width: 300px;
+    }
+    .div_todo {  
+        width: 300px;
+    }
+    .grid_posts {
+        align-self: flex-start;
+    }
+    .categorias_grupo_mobile 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 320px;
+        height: 100px;
+        align-items: flex-start;
+        grid: "h h h"
+        "a b c";    
+    }
+    .categorias_e_titulo {
+        margin-left: 16px;
+    }
+    .maislidas_e_titulo {
+        margin-left: 16px;
+    }
+    .categorias_desk {
+        display: none;
+    }
+    .categorias_mobile {
+        display: block;
+    }
+}
+
